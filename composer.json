@@ -1,0 +1,15 @@
+{
+    "name": "svyatik44/php-project-9",
+    "autoload": {
+        "psr-4": {
+            "Svyatik44\\PhpProject9\\": "src/"
+        }
+    },
+    "require": {
+        "slim/slim": "^4.11",
+        "slim/psr7": "^1.6",
+        "slim/http": "^1.3",
+        "slim/php-view": "^3.2",
+        "php-di/php-di": "^7.0"
+    }
+}
