@@ -12,8 +12,8 @@ $container->set('renderer', function () {
 $app = AppFactory::createFromContainer($container);
 $app->addErrorMiddleware(true, true, true);
 
-$app->get('/users/{id}', function ($request, $response, $args) {
-    
+$app->get('/', function ($request, $response) {
+    $params = [];
     return $this->get('renderer')->render($response, 'index.html', $params);
 });
 
