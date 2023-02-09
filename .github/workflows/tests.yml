@@ -19,8 +19,5 @@ jobs:
           php-version: '8.1'
           tools: phpcs
 
-      - name: start
-        run: make start
-
       - name: linter
         run: make lint
