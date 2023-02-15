@@ -56,7 +56,7 @@ class ComposerStaticInita644dc495bd509a184c49543b95056eb
         ),
         'Svyatik44\\PhpProject9\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/app',
         ),
         'Slim\\Views\\' => 
         array (

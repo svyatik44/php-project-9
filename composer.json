@@ -2,7 +2,8 @@
     "name": "svyatik44/php-project-9",
     "autoload": {
         "psr-4": {
-            "Svyatik44\\PhpProject9\\": "src/"
+            "Svyatik44\\PhpProject9\\": "src/",
+            "Svyatik44\\PhpProject9\\": "app/"
         }
     },
     "require": {

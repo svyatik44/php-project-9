@@ -5,6 +5,15 @@ require __DIR__ . '/../vendor/autoload.php';
 use Slim\Factory\AppFactory;
 use DI\Container;
 
+use PostgreSQL\Connection;
+
+try {
+    Connection::get()->connect();
+    echo 'A connection to the PostgreSQL database sever has been established successfully.';
+} catch (\PDOException $e) {
+    echo $e->getMessage();
+}
+
 $container = new Container();
 $container->set('renderer', function () {
     return new \Slim\Views\PhpRenderer(__DIR__ . '/../templates');

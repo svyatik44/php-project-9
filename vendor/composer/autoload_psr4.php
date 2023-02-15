@@ -7,7 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),
-    'Svyatik44\\PhpProject9\\' => array($baseDir . '/src'),
+    'Svyatik44\\PhpProject9\\' => array($baseDir . '/app'),
     'Slim\\Views\\' => array($vendorDir . '/slim/php-view/src'),
     'Slim\\Psr7\\' => array($vendorDir . '/slim/psr7/src'),
     'Slim\\Http\\' => array($vendorDir . '/slim/http/src'),
