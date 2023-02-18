@@ -2,10 +2,10 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
+use PostgreSQL\Connection;
+
 use Slim\Factory\AppFactory;
 use DI\Container;
-
-use PostgreSQL\Connection;
 
 try {
     Connection::get()->connect();

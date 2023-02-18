@@ -17,7 +17,6 @@ class ComposerStaticInita644dc495bd509a184c49543b95056eb
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
-            'Svyatik44\\PhpProject9\\' => 22,
             'Slim\\Views\\' => 11,
             'Slim\\Psr7\\' => 10,
             'Slim\\Http\\' => 10,
@@ -29,6 +28,7 @@ class ComposerStaticInita644dc495bd509a184c49543b95056eb
             'Psr\\Http\\Server\\' => 16,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
+            'PostgreSQL\\' => 11,
         ),
         'L' => 
         array (
@@ -53,10 +53,6 @@ class ComposerStaticInita644dc495bd509a184c49543b95056eb
         'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
-        ),
-        'Svyatik44\\PhpProject9\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/app',
         ),
         'Slim\\Views\\' => 
         array (
@@ -91,6 +87,10 @@ class ComposerStaticInita644dc495bd509a184c49543b95056eb
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'PostgreSQL\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
         'Laravel\\SerializableClosure\\' => 
         array (

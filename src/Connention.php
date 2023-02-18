@@ -3,9 +3,6 @@
 namespace PostgreSQL;
 
 
-/**
- * Создание класса Connection 
- */
 class Connection {
 
     /**

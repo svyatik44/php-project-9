@@ -1,9 +1,8 @@
 {
-    "name": "svyatik44/php-project-9",
+    "name": "hexlet/code",
     "autoload": {
         "psr-4": {
-            "Svyatik44\\PhpProject9\\": "src/",
-            "Svyatik44\\PhpProject9\\": "app/"
+            "PostgreSQL\\": "src/"
         }
     },
     "require": {
